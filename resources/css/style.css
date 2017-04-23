@@ -1,0 +1,91 @@
+html, body {
+   height: 100%;
+   font-family: "Helvetica", sans-serif;
+}
+
+body {
+  background-color: rgb(10, 0, 10);
+  color: white;
+}
+
+i {
+  color: white;
+}
+
+.container {
+  width: 1000px;
+  display: flex;
+}
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+header .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo-link {
+  display: block;
+  height: 80%;
+}
+
+.logo-image {
+  height: 100%;
+}
+
+.logo-image img {
+  height: 100%;
+  margin-left: 16px;
+}
+
+.social a {
+  margin-right: 24px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(50, 40, 50)
+}
+
+nav .container {
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 18px;
+}
+
+nav li {
+}
+
+.jumbotron {
+/**  background-image: url('../images/Future-of-Eagle-Hunting.jpg');
+  background-size: cover;**/
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron .image-container {
+  width: 100%;
+  padding: 16px;
+  background-color: white;
+  margin: 30px;
+}
+
+.jumbotron img {
+  width: 100%;
+}
+
+footer {
+  height: 100px;
+}
